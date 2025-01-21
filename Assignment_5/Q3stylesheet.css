@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 8vh;
+    text-align: center;
+    padding-top: 3vh;
+    background-color: aqua;
+}
+
+main {
+    padding-left: 15vw;
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    grid-template-rows: 30vh 30vh;
+    grid-row-gap: 2vw;
+    grid-column-gap: 25px;
+    align-self: center;
+}
+
+img {
+    height: 30vh;
+    width: 430px;
+}
+
+.image:hover {
+    transform: scale(1.01, 1.01);
+
+}
+
+.caption {
+    margin-left: 40px;
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgb(148, 156, 164);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    height:10%;
+    width:70%;
+    color: white;
+    text-align: center;
+}
+
+.image:hover .caption {
+    display: block;
+}
