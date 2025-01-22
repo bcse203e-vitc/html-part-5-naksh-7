@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: black
+
+}
+.container{
+    position: relative;
+    bottom: -150px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 25vh;
+    box-sizing: border-box;
+    justify-content: space-around;
+    /* background-color: aquamarine; */
+}
+
+.btn1{
+    height: 30px;
+    width: 90px;
+}
+
+#first{
+    background: linear-gradient(blue,violet);
+}
+
+#second{
+    border: 2px solid blue;
+    background-color: gray;
+    color: black;
+}
+
+#third{
+    box-shadow: 0px 0px 15px rgb(51, 51, 232), 0px 0px 30px rgb(51, 51, 232),0px 0px 45px rgb(51, 51, 232) ;
+    background-color: transparent;
+    color: white;
+}
+#second:hover{
+    background-color: black;
+    color:white;
+    border: 2px solid red;
+}

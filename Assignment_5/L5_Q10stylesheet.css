@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.loader{
+    background-color: transparent;
+    position: relative;
+    left: 45vw;
+    top: 45vh;
+    animation: stop 0.1s forwards 3s;
+}
+
+.spin1{
+    border: 7px solid transparent;
+    border-radius: 50%;
+    border-bottom: 7px solid gray;
+    width: 50px;
+    height: 50px;
+    animation: load 3s linear infinite;
+}
+
+main{
+    width: 100vw;
+    height: 13vh;
+    background-color: bisque;
+    color: brown;
+    text-align: center;
+    padding-top: 27px;
+    animation: ani1 1s forwards 3.1s;
+    opacity: 0;
+}
+
+@keyframes load{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes stop{
+    0%{
+        /* opacity: 1; */
+    }
+    100%{
+        /* opacity:0; */
+        display: none;
+    }
+}
+
+@keyframes ani1{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+        display: block;
+    }
+}

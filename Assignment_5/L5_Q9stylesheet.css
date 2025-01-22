@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+}
+th,td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #c0bfbf;   
+}
+
+tr:nth-child(3){
+    background-color: #69c06d;
+}
+
+button:hover{
+     background-color: #69c06d; 
+}

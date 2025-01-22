@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width:100vw;
+    height: 15vh;
+    color:white;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 9vh;
+    animation: slide 1.5s ease-in 1 normal;
+    position: relative;
+    transition: color 1s ease-out;
+}
+
+@keyframes slide{
+    from{top:-200px;}
+    to{
+        top:0;
+    }
+}
+
+header:hover{
+    color: brown
+}
+
+
+
